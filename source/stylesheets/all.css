@@ -1,18 +1,16 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
+  background-color: #181818;
   text-align: center;
   font-family: sans-serif; }
 
 h1 {
-  color: rgba(0, 0, 0, .3);
+  color: rgba(255, 255, 255, 0.32);
   font-weight: bold;
   font-size: 32px;
   letter-spacing: -1px;
   text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
   padding: 350px 0 10px;
   margin: 0; }
 
@@ -52,4 +50,31 @@ h1 {
   to {
     -webkit-transform: scale(1);
   }
+}
+#chat_input {
+  min-width: 350px;
+  width: 100%;
+  border-radius: 0px;
+  border: 0px;
+  height: 40px;
+}
+.chat-box {
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /*width: 600px;*/
+    background-color: #232531;
+    padding: 50px;
+    width: 400px;
+    margin: auto;
+
+}
+.msg-body {
+  background-color: #43475e;
+  color:#fff;
+  padding: 10px 0 10px 0;
+  word-wrap: break-word;
+  min-width: 300px;
+  width: 100%;
+  border-bottom: 5px solid #46617B;
 }
