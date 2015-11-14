@@ -15,3 +15,4 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem "coffee-script"
 gem "eventmachine"
 gem "em-websocket"
+gem "daemons"
